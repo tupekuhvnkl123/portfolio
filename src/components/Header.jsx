@@ -11,6 +11,7 @@ const Header = () => {
     linkedIn: "https://www.linkedin.com/in/ofek-levi-13704a220",
     upWork: "https://www.upwork.com/freelancers/~01dd3af11fbed70812",
     instagram: "https://www.instagram.com/ofek_levi16/",
+    fiverr: "https://www.fiverr.com/tupekuh123",
   };
 
   const socialLinksMotions = {
@@ -35,6 +36,12 @@ const Header = () => {
           url={socialLinks.upWork}
           fgColor="gray"
           bgColor="rgb(36, 36, 36)"
+          target="_blank"
+        />
+        <SocialIcon
+          url={socialLinks.fiverr}
+          fgColor="gray"
+          bgColor="transparent"
           target="_blank"
         />
         <SocialIcon
