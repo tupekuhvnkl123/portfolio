@@ -1,0 +1,93 @@
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  max-width: 80rem;
+  padding: 0 2.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-left: 20px;
+  color: rgb(107 114 128);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.image {
+  flex-shrink: 0;
+  width: 16rem;
+  height: 24rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.textContainer {
+  padding: 0 2.5rem;
+}
+.textContainer * + * {
+  margin-top: 2rem;
+}
+
+.textContainer h4 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.textContainer h4 span {
+  text-decoration: underline;
+  text-decoration-color: rgb(25, 118, 210, 0.5);
+}
+
+.textContainer p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image {
+    flex-shrink: 0;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 9999px;
+    object-fit: cover;
+  }
+  .textContainer {
+    padding: 0;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .image {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 2.5rem;
+  }
+  .textContainer {
+    padding: 0;
+  }
+}
+@media (max-height: 750px) {
+  .title {
+    top: 6.5rem;
+  }
+}

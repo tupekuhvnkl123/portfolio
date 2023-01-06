@@ -1,0 +1,46 @@
+.container {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  height: 100vh;
+  scroll-snap-type: y var(--tw-scroll-snap-strictness);
+  --tw-scroll-snap-strictness: mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 0;
+  scroll-behavior: smooth;
+}
+.container::-webkit-scrollbar {
+  width: 15px;
+}
+.container::-webkit-scrollbar-track {
+  background-color: rgba(124, 124, 124, 0.2);
+}
+.container::-webkit-scrollbar-thumb {
+  background: rgb(25, 118, 210, 0.5);
+}
+
+.heroSection {
+  scroll-snap-align: start;
+}
+
+.aboutSection {
+  scroll-snap-align: center;
+}
+
+.skillsSection {
+  scroll-snap-align: start;
+}
+
+.projectsSection {
+  scroll-snap-align: start;
+}
+
+.contactMeSection {
+  scroll-snap-align: start;
+}
+
+@media (max-width: 700px) {
+  .container::-webkit-scrollbar {
+    width: 8px;
+  }
+}

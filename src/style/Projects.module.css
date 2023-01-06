@@ -1,0 +1,86 @@
+.container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  max-width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.title {
+  position: absolute;
+  top: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-left: 20px;
+  color: rgb(107 114 128);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.slideInstruction {
+  position: absolute;
+  top: 11rem;
+  color: rgb(107 114 128);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.projectsContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  z-index: 20;
+}
+.projectsContainer::-webkit-scrollbar {
+  height: 40px;
+}
+.projectsContainer::-webkit-scrollbar-track {
+  background-color: rgba(124, 124, 124, 0.2);
+}
+.projectsContainer::-webkit-scrollbar-thumb {
+  background: rgb(25, 118, 210, 0.5);
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 500px;
+  background-color: rgb(25, 118, 210, 0.1);
+  transform: skewY(-12deg);
+}
+
+@media (max-width: 700px) {
+  .container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .projectsContainer::-webkit-scrollbar {
+    height: 20px;
+  }
+}
+@media (max-height: 750px) {
+  .title {
+    top: 6.5rem;
+  }
+  .slideInstruction {
+    top: 9.5rem;
+  }
+}
+@media (max-width: 380px) and (max-height: 700px) {
+  .slideInstruction {
+    top: 9rem;
+  }
+}

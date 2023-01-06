@@ -1,0 +1,38 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: 0 auto;
+  z-index: 20;
+  padding: 1.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.getInTouch {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  color: rgb(209 213 219);
+  text-decoration: none;
+}
+
+.getInTouch p {
+  text-transform: uppercase;
+  display: inline-flex;
+  color: rgb(156 163 175);
+}
+
+@media (max-width: 700px) {
+  .getInTouch p {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+.container img {
+  border-radius: 9999px;
+  border: 1px solid rgb(249 250 251);
+  object-position: center;
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+}
+
+@media (max-width: 700px) {
+  .container img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container img {
+    width: 4rem;
+    height: 4rem;
+  }
+}

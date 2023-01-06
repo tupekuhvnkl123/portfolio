@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.circle {
+  position: absolute;
+  border: 1px solid;
+  margin-top: 13rem;
+  border-color: #333333;
+  border-radius: 9999px;
+}
+
+.circle.first {
+  height: 200px;
+  width: 200px;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+.circle.second {
+  height: 300px;
+  width: 300px;
+}
+.circle.third {
+  height: 500px;
+  width: 500px;
+}
+.circle.fourth {
+  position: absolute;
+  border: 1px solid;
+  margin-top: 13rem;
+  border-radius: 9999px;
+  height: 650px;
+  width: 650px;
+  border-color: rgb(25, 118, 210, 0.3);
+  /* border-color: rgb(247, 171, 10, 0.2); */
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.circle.fifth {
+  height: 800px;
+  width: 800px;
+}
+
+@keyframes ping {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

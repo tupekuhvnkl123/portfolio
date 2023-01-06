@@ -1,0 +1,125 @@
+.project {
+  width: 100vw;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-shrink: 0;
+  transform: translateY(5rem);
+}
+.project * + * {
+  margin-top: 1.25rem;
+}
+.projectImage {
+  object-fit: cover;
+  object-position: center;
+  max-width: 60%;
+  max-height: 15rem;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+.text {
+  max-width: 72rem;
+}
+.text * + * {
+  margin-top: 2.5rem;
+}
+
+.text h4 {
+  font-size: 2.25rem;
+  cursor: pointer;
+  line-height: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 2rem;
+}
+.text p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  max-width: 50rem;
+  padding: 0 2rem;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.technologies img {
+  height: 2.5rem;
+  width: 2.5rem;
+  object-fit: cover;
+  object-position: center;
+  margin: 0.3rem 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .text h4 {
+    font-size: 2rem;
+    padding: 0 1rem;
+    line-height: 2rem;
+  }
+  .projectImage {
+    max-width: 80%;
+    max-height: 13rem;
+    margin-top: 0;
+  }
+}
+@media (max-width: 550px) {
+  .project {
+    transform: translateY(2rem);
+  }
+  .text p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  .text h4 {
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+  }
+  .projectImage {
+    max-width: 80%;
+    max-height: 11rem;
+  }
+  .text * + * {
+    margin-top: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .projectImage {
+    max-height: 10rem;
+  }
+  .technologies img {
+    height: 2.3rem;
+    width: 2.3rem;
+  }
+}
+@media (max-width: 300px) {
+  .project {
+    transform: translateY(4rem);
+  }
+}
+
+@media (max-width: 380px) and (max-height: 750px) {
+  .technologies img {
+    margin: 0rem 0.5rem;
+  }
+  .text p {
+    line-height: 1.2rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 320px) and (max-height: 660px) {
+  .project {
+    transform: translateY(3rem);
+  }
+}
+@media (max-height: 730px) {
+  .projectImage {
+    max-height: 10rem;
+  }
+}

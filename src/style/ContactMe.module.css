@@ -1,0 +1,96 @@
+.container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  max-width: 80rem;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+}
+.title {
+  position: absolute;
+  top: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-left: 20px;
+  color: rgb(107 114 128);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.contact h4 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.info {
+  margin-top: 2.5rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.infoItem p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.icon {
+  color: rgb(25, 118, 210, 0.8);
+  height: 1.75rem;
+  width: 1.75rem;
+  margin-right: 1.25rem;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@media (max-width: 700px) {
+  .container {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact h4 {
+    font-size: 2rem;
+  }
+  .infoItem p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .icon {
+    margin-right: 1rem;
+  }
+  .contact {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  .contact {
+    margin-top: 2.5rem;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
