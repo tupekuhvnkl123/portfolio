@@ -47,7 +47,7 @@ export const projectsInfo = {
       description: "Clone for Netflix",
       img: "./NetflixLogo.svg",
       link: "https://ofeknetflixclone.vercel.app/",
-      technologies: ["react", "node.js", "express", "scss", "mongodb"],
+      technologies: ["react", "nodejs", "express", "scss", "mongodb"],
     },
     {
       name: "Gamer.com",
