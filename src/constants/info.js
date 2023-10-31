@@ -43,6 +43,13 @@ export const projectsInfo = {
       technologies: ["nextjs", "materialui", "express", "scss", "mongodb"],
     },
     {
+      name: "Netflix Clone",
+      description: "Clone for Netflix",
+      img: "./NetflixLogo.svg",
+      link: "https://ofeknetflixclone.vercel.app/",
+      technologies: ["react", "node.js", "express", "scss", "mongodb"],
+    },
+    {
       name: "Gamer.com",
       description:
         "A simple, next.js application that shows the details of PC games. Including authentication and personal favorites list.",
