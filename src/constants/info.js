@@ -44,10 +44,17 @@ export const projectsInfo = {
     },
     {
       name: "Netflix Clone",
-      description: "Clone for Netflix",
+      description: "Fullstack Netflix clone app",
       img: "./NetflixLogo.svg",
       link: "https://ofeknetflixclone.vercel.app/",
       technologies: ["react", "nodejs", "express", "scss", "mongodb"],
+    },
+    {
+      name: "Weather App",
+      description: "Frontend global weather app",
+      img: "./WeatherApp.png",
+      link: "https://ofek-weather-app.vercel.app/",
+      technologies: ["react", "scss"],
     },
     {
       name: "Gamer.com",
