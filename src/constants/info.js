@@ -43,6 +43,22 @@ export const projectsInfo = {
       technologies: ["nextjs", "materialui", "express", "scss", "mongodb"],
     },
     {
+      name: "Whatsapp Clone",
+      description:
+        "Fullstack Whatsapp clone app, includes facetime real time chat and more... ",
+      img: "./WhatsappLogo.png",
+      link: "https://ofek-whatsapp-clone.vercel.app/",
+      technologies: [
+        "react",
+        "nodejs",
+        "express",
+        "css",
+        "mongodb",
+        "tailwind",
+        "redux",
+      ],
+    },
+    {
       name: "Netflix Clone",
       description: "Fullstack Netflix clone app",
       img: "./NetflixLogo.svg",
