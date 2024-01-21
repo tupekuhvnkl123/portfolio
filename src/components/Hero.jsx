@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 //// Components
 import BackgroundCircles from "./BackgroundCircles";
+import DownloadIcon from "./DownloadIcon";
 
 //// Style
 import classes from "../style/Hero.module.css";
@@ -21,7 +22,7 @@ const Hero = () => {
     <div className={classes.container}>
       <BackgroundCircles />
       <img className={classes.image} src="./heroImage.jpg" alt="Ofek Levi" />
-      <div style={{ zIndex: 20 }}>
+      <div style={{ zIndex: 20, position: "relative" }}>
         <div className={classes.textContainer}>
           <h2>{heroInfo.profession}</h2>
           <h1>
@@ -43,6 +44,14 @@ const Hero = () => {
             <button>Projects</button>
           </a>
         </div>
+        <a className={classes.cvLink} href="./CV.pdf" download="CV.pdf">
+          <div>
+            <div className={classes.cvContainer}>
+              <DownloadIcon />
+              <p>DOWNLOAD CV</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );

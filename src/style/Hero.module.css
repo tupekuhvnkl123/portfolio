@@ -65,6 +65,28 @@
   color: rgb(25, 118, 210, 0.5);
 }
 
+.cvLink {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  bottom: -4rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.cvContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 118, 210, 0.3);
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.cvLink p {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 700px) {
   .textContainer h1 {
     font-weight: 500;
