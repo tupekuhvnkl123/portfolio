@@ -66,6 +66,14 @@ export const projectsInfo = {
       technologies: ["react", "nodejs", "express", "scss", "mongodb"],
     },
     {
+      name: "Locksmith Express",
+      description:
+        "Responsive website that I built adn designed for my client, a locksmith company.",
+      img: "./LocksmithExpress.png",
+      link: "https://www.locksmithexpress247.com/",
+      technologies: ["javascript", "react", "css"],
+    },
+    {
       name: "Weather App",
       description: "Frontend global weather app",
       img: "./WeatherApp.png",
