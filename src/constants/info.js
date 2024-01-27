@@ -68,7 +68,7 @@ export const projectsInfo = {
     {
       name: "Locksmith Express",
       description:
-        "Responsive website that I built adn designed for my client, a locksmith company.",
+        "Responsive website that I built and designed for my client, a Locksmith company.",
       img: "./LocksmithExpress.png",
       link: "https://www.locksmithexpress247.com/",
       technologies: ["javascript", "react", "css"],
