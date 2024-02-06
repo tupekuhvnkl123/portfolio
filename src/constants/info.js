@@ -96,22 +96,6 @@ export const projectsInfo = {
       link: "https://games-project.vercel.app/games",
       technologies: ["nextjs", "jest", "redux", "scss"],
     },
-    {
-      name: "Next Meetups",
-      description:
-        "A next.js application that allows you to add meetup to a meetups collection.",
-      img: "./Meetups.jpg",
-      link: "https://ofek-nextjs-meetups.vercel.app/",
-      technologies: ["nextjs", "css", "mongodb"],
-    },
-    {
-      name: "My Places",
-      description:
-        "A MERN stack application that allows you to add place with location to your list. Including authentication and real location.",
-      img: "./Places.png",
-      link: "https://mern-stack-places.vercel.app/auth",
-      technologies: ["react", "express", "nodejs", "jest", "mongodb"],
-    },
   ],
 };
 export const contactMeInfo = {
