@@ -66,6 +66,14 @@ export const projectsInfo = {
       technologies: ["react", "nodejs", "express", "scss", "mongodb"],
     },
     {
+      name: "Jiffy Locksmith",
+      description:
+        "Responsive website that I built and designed for my client, a Locksmith company.",
+      img: "./JiffyLocksmith.png",
+      link: "https://www.jiffylocksmith247.com/",
+      technologies: ["typescript", "react", "css"],
+    },
+    {
       name: "Locksmith Express",
       description:
         "Responsive website that I built and designed for my client, a Locksmith company.",
