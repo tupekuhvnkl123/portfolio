@@ -74,6 +74,14 @@ export const projectsInfo = {
       technologies: ["typescript", "react", "css"],
     },
     {
+      name: "Drews Locksmith",
+      description:
+        "Responsive website that I built and designed for my client, a Locksmith company.",
+      img: "./DrewsLocksmith.png",
+      link: "https://www.drewslocksmith.com/",
+      technologies: ["javascript", "react", "css"],
+    },
+    {
       name: "Locksmith Express",
       description:
         "Responsive website that I built and designed for my client, a Locksmith company.",
