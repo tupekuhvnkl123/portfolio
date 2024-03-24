@@ -66,6 +66,14 @@ export const projectsInfo = {
       technologies: ["react", "nodejs", "express", "scss", "mongodb"],
     },
     {
+      name: "Pokemons",
+      description:
+        "Pokemons PWA website. Explore data about any pokemon you want such as name, ID, types, images and more...",
+      img: "./Pokemons.png",
+      link: "https://ofek-pokemons.vercel.app/",
+      technologies: ["javascript", "react", "tailwind", "mui"],
+    },
+    {
       name: "Jiffy Locksmith",
       description:
         "Responsive website that I built and designed for my client, a Locksmith company.",
