@@ -35,7 +35,7 @@ export const skillsInfo = {
 export const projectsInfo = {
   projects: [
     {
-      name: "iMarket",
+      name: "E-commerce",
       description:
         "Apple ecommerce website that was designed by me. The website is fully responsive, ensuring a seamless user experience across different devices. One of its key features is the integration of Stripe for secure and convenient payment processing, allowing customers to make purchases with ease.",
       img: "./iMarket.png",
