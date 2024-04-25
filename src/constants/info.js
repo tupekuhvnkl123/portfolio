@@ -35,6 +35,21 @@ export const skillsInfo = {
 export const projectsInfo = {
   projects: [
     {
+      name: "iMarket",
+      description:
+        "Apple ecommerce website that was designed by me. The website is fully responsive, ensuring a seamless user experience across different devices. One of its key features is the integration of Stripe for secure and convenient payment processing, allowing customers to make purchases with ease.",
+      img: "./iMarket.png",
+      link: "https://i-market.vercel.app/",
+      technologies: [
+        "typescript",
+        "react",
+        "express",
+        "scss",
+        "mongodb",
+        "materialui",
+      ],
+    },
+    {
       name: "Knowledge Dealers",
       description:
         "By far my biggest project. This site is a fully social network to share and expand knowledge, and the option to make deals and earn some benefit. Including marketplace, community, public profiles, real time messages and more amazing features. you should definitely check it out. ",
