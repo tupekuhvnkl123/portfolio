@@ -47,6 +47,7 @@ export const projectsInfo = {
         "scss",
         "mongodb",
         "materialui",
+        "figma",
       ],
     },
     {
@@ -55,7 +56,14 @@ export const projectsInfo = {
         "By far my biggest project. This site is a fully social network to share and expand knowledge, and the option to make deals and earn some benefit. Including marketplace, community, public profiles, real time messages and more amazing features. you should definitely check it out. ",
       img: "./KnowledgeDealers.svg",
       link: "https://knowledge-dealers.vercel.app/",
-      technologies: ["nextjs", "materialui", "express", "scss", "mongodb"],
+      technologies: [
+        "nextjs",
+        "materialui",
+        "express",
+        "scss",
+        "mongodb",
+        "figma",
+      ],
     },
     {
       name: "Whatsapp Clone",
@@ -86,7 +94,7 @@ export const projectsInfo = {
         "Pokemons PWA website. Explore data about any pokemon you want such as name, ID, types, images and more...",
       img: "./Pokemons.png",
       link: "https://ofek-pokemons.vercel.app/",
-      technologies: ["javascript", "react", "tailwind", "mui"],
+      technologies: ["javascript", "react", "tailwind", "mui", "figma"],
     },
     {
       name: "Jiffy Locksmith",
@@ -114,10 +122,10 @@ export const projectsInfo = {
     },
     {
       name: "Weather App",
-      description: "Frontend global weather app",
+      description: "Frontend global weather app that was designed by me.",
       img: "./WeatherApp.png",
       link: "https://ofek-weather-app.vercel.app/",
-      technologies: ["react", "scss"],
+      technologies: ["react", "scss", "figma"],
     },
     {
       name: "Gamer.com",
