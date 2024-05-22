@@ -44,7 +44,11 @@ const Hero = () => {
             <button>Projects</button>
           </a>
         </div>
-        <a className={classes.cvLink} href="./CV.pdf" download="CV.pdf">
+        <a
+          className={classes.cvLink}
+          href="./OfekLevi-CV.pdf"
+          download="OfekLevi-CV.pdf"
+        >
           <div>
             <div className={classes.cvContainer}>
               <DownloadIcon />
